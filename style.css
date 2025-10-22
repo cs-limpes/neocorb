@@ -1,0 +1,30 @@
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+body {
+    background-color: #E0DDF4;
+    color: #000;
+    font-size: 16px;
+}
+
+main {
+    width: 80%;
+    margin: 0 10%;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+a {
+    color: #5D7D2A;
+}
+
+a:visited, a:active, a:hover {
+    color: #D48389;
+}
