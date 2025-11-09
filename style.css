@@ -4,14 +4,23 @@
 }
 
 body {
-    background-color: #E0DDF4;
+    background-color: #FBEBE4;
+    background-image: url(background2.png);
+    background-size:cover;
+    background-repeat:no-repeat;
     color: #000;
     font-size: 16px;
 }
 
 main {
-    width: 80%;
+    width: 70%;
     margin: 0 10%;
+    background-color: white;
+    padding: 3rem;
+    margin: 0 15%;
+    border: 0.05px solid #696969;
+    filter: drop-shadow(0 0 10px #34432E);
+
 }
 
 header ul {
@@ -22,9 +31,13 @@ header ul {
 }
 
 a {
-    color: #5D7D2A;
+    color: #969C52;
 }
 
 a:visited, a:active, a:hover {
-    color: #D48389;
+    color: #AC473D;
+}
+
+.verify {
+    opacity: 0;
 }
